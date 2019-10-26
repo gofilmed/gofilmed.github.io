@@ -24,7 +24,7 @@
 		<div class="main-wrapper animsition">
 
 			<!-- HEADER -->
-			<header id="header" class="fixed">
+			<header id="header" class="fixed has-border">
 				<!-- LOGO -->
 				<a href="index.html" class="logo">
 					<img src="img/logo.png" class="logo-dark" alt="">
@@ -133,54 +133,39 @@
 			</header>
 			<!-- /HEADER -->
 			
-			<!-- SLIDESHOW -->
-			<div class="slideshow swiper-container" data-autoplay="true" data-interval="3000">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide" data-background="http://placehold.it/1920x1280" data-caption="Like the legend of the Phoenix" data-link=""></div>
-					<div class="swiper-slide" data-background="http://placehold.it/1920x1280" data-caption="All ends with beginnings" data-link="gallery-justified-fullwidth.html"></div>
-					<div class="swiper-slide" data-background="http://placehold.it/1920x1280" data-caption="What keeps the planets spinning" data-link="gallery-justified-fullwidth.html"></div>
+			<!-- CONTENT -->
+			<div class="container fullwidth no-padding">
+				
+				<!-- IMAGE BACKGROUND -->
+				<div class="col-md-6 col-sm-5 fullscreen-height fixed hidden-xs" data-background="http://placehold.it/1200x900"></div>
+
+				<!-- DETAILS -->
+				<div class="col-md-6 col-sm-7 col-md-offset-6 col-sm-offset-5 fullscreen-height">
+					<div class="vcenter-outer p70 pt130">
+						
+						<div class="vcenter-inner">
+							<h5 class="title-tooltip">Say Hello.</h5>
+							<h3 class="title mt0">Let's Get In Touch</h3>
+							<p class="separator-left mb20"></p>
+							<div class="contact-info">
+								<a href="mailto:example@site.com" class="no-redirect">
+									<b>Mail:</b> example@site.com
+								</a>
+								<a href="#">
+									<b>Address:</b> Verdzik Avenue 221B, Tbilisi, Georgia 
+								</a>
+								<a href="tel:+123567789" class="no-redirect">
+									<b>Phone:</b> +123 567 789
+								</a>
+							</div>
+						</div>
+
+					</div>
 				</div>
+				<!-- /DETAILS -->
+
 			</div>
-			<!-- /SLIDESHOW -->
-		
-			<!-- FOOTER -->
-			<footer id="footer" class="fixed">
-				
-				<!-- FOOTER LINKS -->
-				<div class="footer-links pull-left">
-					&copy; 2016. By AchtungThemes. |
-					<a href="#">Facebook</a> |
-					<a href="#">Instagram</a> | 
-					<a href="#">500px</a>
-				</div>
-
-				<!-- SLIDE CAPTION -->
-				<div class="active-slide-caption"></div>
-				
-				<!-- CONTROLS -->
-				<div class="controls-wrapper">
-
-					<button class="sideslide swiper-prev">
-						<i class="fa fa-chevron-left"></i>
-					</button>
-					<button class="sideslide swiper-play">
-						<i class="fa fa-play"></i>
-					</button>
-					<button class="sideslide swiper-pause">
-						<i class="fa fa-pause"></i>
-					</button>
-					<button class="sideslide swiper-next">
-						<i class="fa fa-chevron-right"></i>
-					</button>
-					<button class="sideslide expand">
-						<i class="fa fa-expand"></i>
-					</button>
-
-				</div>
-				<!-- C/ONTROLS -->
-
-			</footer>
-			<!-- /FOOTER -->
+			<!-- /CONTENT -->
 
 		</div>	
 		<!-- /MAIN-WRAPPER -->
