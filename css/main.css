@@ -921,20 +921,19 @@ blockquote footer{
 .swiper-slide,
 .swiper-slide [data-background]{
 	height: 100%;
-	width: 40%;
 	height: 100vh;
 }
 .kenburns .swiper-slide [data-background]{
-	-webkit-transform: scale(1);
-		-ms-transform: scale(1);
-			transform: scale(1);
+	-webkit-transform: scale(1.5);
+		-ms-transform: scale(1.5);
+			transform: scale(1.5);
 	-webkit-transition: transform 6.5s linear;
 			transition: transform 6.5s linear;
 }
 .kenburns .swiper-slide-active [data-background]{
-	-webkit-transform: scale(1.2);
-		-ms-transform: scale(1.2);
-			transform: scale(1.2);
+	-webkit-transform: scale(1.5);
+		-ms-transform: scale(1.5);
+			transform: scale(1.5);
 }
 
 /*HORIZONTAL SLIDER*/
