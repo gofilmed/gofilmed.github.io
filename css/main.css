@@ -925,7 +925,7 @@ blockquote footer{
 }
 .kenburns .swiper-slide [data-background]{
 	-webkit-transform: scale(0.5);
-		-ms-transform: scale(1);
+		-ms-transform: scale(0.5);
 			transform: scale(1);
 	-webkit-transition: transform 6.5s linear;
 			transition: transform 6.5s linear;
