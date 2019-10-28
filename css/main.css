@@ -236,7 +236,10 @@ h6:first-child
 .fullheight { height: 100% }
 .fullscreen-width { width: 100vw }
 .fullscreen-height{ height: 100vh }
-
+.yourdiv
+{
+    display: inline;
+}
 
 .bg-grey{ background-color: #F7F7F7; }
 .bg-dark{ background-color: rgba(0, 0, 0, 0.9); }
