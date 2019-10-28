@@ -921,7 +921,7 @@ blockquote footer{
 .swiper-slide,
 .swiper-slide [data-background]{
 	height: 100%;
-	width: 50%;
+	width: 40%;
 	height: 100vh;
 }
 .kenburns .swiper-slide [data-background]{
