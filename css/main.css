@@ -920,8 +920,8 @@ blockquote footer{
 .swiper-wrapper,
 .swiper-slide,
 .swiper-slide [data-background]{
-	height: 50%;
-	height: 50vh;
+	height: 100%;
+	height: 100vh;
 }
 .kenburns .swiper-slide [data-background]{
 	-webkit-transform: scale(1);
@@ -931,9 +931,9 @@ blockquote footer{
 			transition: transform 6.5s linear;
 }
 .kenburns .swiper-slide-active [data-background]{
-	-webkit-transform: scale(1.4);
-		-ms-transform: scale(1.4);
-			transform: scale(1.4);
+	-webkit-transform: scale(1.5);
+		-ms-transform: scale(1.5);
+			transform: scale(1.5);
 }
 
 /*HORIZONTAL SLIDER*/
