@@ -1,5 +1,5 @@
 <?php
-	$to = "where@tosendemail.com";
+	$to = "photo@gofilmed.com";
 
 	$name = $_POST['name'];
 	$email = $_POST['email'];
