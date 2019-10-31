@@ -1449,16 +1449,21 @@ body.slider-expanded .horizontal-slider.video-slider .swiper-slide .expand{
 }
 .entrance h1,
 .entrance h2,
-.entrance h3,
+.entrance h3{
+	object-fit: contain;
+}	
 .entrance h4,
 .entrance h5,
 .entrance h6{
 	line-height: 1.2;
 	margin-bottom: 0;
 }
-@media( max-width: 900px ){
+@media( width: 100% ){
 	.entrance{
 		padding: 30px 35px;
+		width: 100%; 
+                height: 100%;
+		object-fit: contain;
 	}
 }
 
